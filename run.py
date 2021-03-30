@@ -1,9 +1,10 @@
 from app import create_app, cli
-from app.cli import blueprint
+
+from app.blueprints.blog.models import Post
 
 app = create_app()
-app.cli.add_command(blueprint)
+cli.register(app)
 
 @app.shell_context_processor
 def makeShellContext():
-    return dict()
+    return dict(Post=Post)
