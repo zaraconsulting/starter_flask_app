@@ -1,4 +1,5 @@
 import os, click
+from app import app
 from flask import cli
 from flask.cli import AppGroup
 
@@ -29,3 +30,5 @@ def create(name):
     print(f"Something went wrong with creating the blueprint called {name}")
     print(error)
   return print("Blueprint created successfully")
+
+app.cli.add_command(blueprint)
