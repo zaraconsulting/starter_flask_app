@@ -1,0 +1,83 @@
+a:hover {color: #c7386a;}
+a:active {color: #c7386a;}
+
+::selection {background: #c7386a; color: #fff;}
+::-moz-selection {background: #c7386a; color: #fff;}
+::-webkit-selection {background: #c7386a; color: #fff;}
+
+#logo a:hover {color: #c7386a;}
+#logo a:active {color: #c7386a;}
+
+.menu a:hover {color: #c7386a;}
+.menu a:active {color: #c7386a;}
+
+.sub-menu a:hover {color: #c7386a;}
+.sub-menu a:active {color: #c7386a;}
+
+.toggle .fa-bars:hover {color: #c7386a;}
+.toggle-home .fa-bars:hover {color: #c7386a;}
+
+.button:hover {color: #fff; border: 2px solid #c7386a; background: #c7386a;}
+.button:active {color: #fff; border: 2px solid #c7386a; background: #c7386a;}
+
+.service-fa {color: #c7386a;}
+
+.profile-pic {background: #c7386a url(../images/profile.png) center center no-repeat;}
+
+.category_postmetadata a:hover {color: #c7386a;}
+.category_postmetadata a:active {color: #c7386a;}
+
+a.more-link:hover {color: #fff; border: 2px solid #c7386a; background: #c7386a;}
+a.more-link:active {color: #fff; border: 2px solid #c7386a; background: #c7386a;}
+
+ol.commentlist li div.comment-meta a:hover {color: #c7386a;}
+ol.commentlist li div.comment-meta a:active {color: #c7386a;}
+
+ol.commentlist li div.reply a:hover {color: #c7386a;}
+ol.commentlist li div.reply a:active {color: #c7386a;}
+
+.blog_previous a:hover {color: #fff; border: 2px solid #c7386a; background: #c7386a;}
+.blog_previous a:active {color: #fff; border: 2px solid #c7386a; background: #c7386a;}
+
+.blog_next a:hover {color: #fff; border: 2px solid #c7386a; background: #c7386a;}
+.blog_next a:active {color: #fff; border: 2px solid #c7386a; background: #c7386a;}
+
+.portfolio-items .item-two-columns {background: #c7386a;}
+.portfolio-items .item-three-columns {background: #c7386a;}
+.portfolio-items .item-four-columns {background: #c7386a;}
+
+#options a:hover {color: #c7386a;}
+#options a:active {color: #c7386a;}
+
+.item-button-previous:hover {
+	border: 2px solid #c7386a;
+	background: #c7386a url(images/item-button-previous-hover.png);
+}
+
+.item-button-return:hover {
+	border: 2px solid #c7386a;
+	background: #c7386a url(images/item-button-return-hover.png);
+}
+
+.item-button-next:hover {
+	border: 2px solid #c7386a;
+	background: #c7386a url(images/item-button-next-hover.png);
+}
+
+.item-category {color: #edbece;}
+
+.logo-home a:hover {color: #c7386a;}
+.logo-home a:active {color: #c7386a;}
+
+.nav-home .menu a:hover {color: #c7386a;}
+.nav-home .menu a:active {color: #c7386a;}
+
+.text-home {color: #c7386a;}
+
+.button-home {border: 2px solid #c7386a;}
+.button-home:link {color: #c7386a;}
+.button-home:visited {color: #c7386a;}
+.button-home:hover {color: #fff; background: #c7386a;}
+.button-home:active {color: #fff; background: #c7386a;}
+
+.home-dash {background: #c7386a;}

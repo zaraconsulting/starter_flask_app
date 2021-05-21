@@ -1,0 +1,30 @@
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="{{ url_for('static', filename='js/jquery.preloader.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.vegas.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.vticker.js') }}"></script>
+
+<script>
+$(function() {
+$.vegas('slideshow', {
+  backgrounds:[
+    { src:"{{ url_for('static', filename='images/dummy-images/slide1.jpg') }}", fade:1000, },
+    { src:"{{ url_for('static', filename='images/dummy-images/slide2.jpg') }}", fade:1000, },
+  ]
+})('overlay');
+  $.vegas('overlay', {
+	opacity:0.7,
+    src:"{{ url_for('static', filename='images/overlays/01.png') }}"
+  });
+});
+</script>
+
+<script>
+$(function() {
+  $('#ticker').vTicker();
+});
+</script>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->

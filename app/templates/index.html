@@ -1,0 +1,32 @@
+{% extends 'layout-home.html' %}
+
+{% block page_home %}
+	<div id="header-home">
+        <div id="header-home-inner">
+        <div id="logo-home">
+            <h1 class="logo-home"><a href="index.html" rel="home">Reactor</a></h1>
+        </div>
+
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="toggle-home" onclick><i class="fa fa-bars"></i></label>
+        <div class="nav-home">
+                {% include './includes/navbar-links.html' %}
+            </div><!-- end navigation -->
+            <div class="clear"></div>
+        </div>
+    </div><!-- end header-home -->
+
+    <div id="content-home">
+        <div class="text-home"><p>We are</p></div>
+        <div id="ticker">
+        <ul>
+            <li>Design Studio</li>
+            <li>Creative</li>
+            <li>Efficient</li>
+            <li>Reactor</li>
+        </ul>
+        </div>
+        <div class="home-dash"></div>
+        <div class="button-center"><a class="button-home" href="services.html">Get started</a></div>
+    </div><!-- end content-home -->
+{% endblock page_home %}

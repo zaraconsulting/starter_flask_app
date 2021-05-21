@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    
+    {% include './includes/head.html' %}
+
+</head>
+<body>
+
+
+    <div id="page">
+        {% include './includes/navbar.html' %}
+
+        {% block page %}{% endblock page %}
+
+        {% include './includes/footer.html' %}
+    </div><!-- end page -->
+
+    {% include './includes/scripts-pages.html' %}
+
+</body>
+</html>
